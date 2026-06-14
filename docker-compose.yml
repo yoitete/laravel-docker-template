@@ -5,7 +5,7 @@ services:
       - ./src:/var/www/src
       - ./php/000-default.conf:/etc/apache2/sites-enabled/000-default.conf
     ports:
-      - 8080:80
+      - 8000:80
     depends_on:
       - db
   db:
